@@ -4,8 +4,8 @@ plugins {
     `maven-publish`
 }
 
-val minestomVersion = "0b0dc83ffe"
-val cloudVersion = "1.7.1"
+val minestomVersion = "79ce9570ea"
+val cloudVersion = "1.8.3"
 
 group = "me.konicai"
 //Use the same version as cloud
