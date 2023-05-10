@@ -4,7 +4,7 @@ plugins {
     `maven-publish`
 }
 
-val minestomVersion = "79ce9570ea"
+val minestomVersion = "d411c271cf"
 val cloudVersion = "1.8.3"
 
 group = "me.konicai"
@@ -24,7 +24,7 @@ repositories {
 
 dependencies {
     api("cloud.commandframework:cloud-core:$cloudVersion")
-    compileOnly("com.github.Minestom:Minestom:$minestomVersion")
+    compileOnly("com.github.hollow-cube:minestom-ce:$minestomVersion")
 }
 
 publishing {
